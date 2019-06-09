@@ -1,0 +1,9 @@
+1. Kasujemy kamerę, światło i kostkę i tworzymy walec - (Object mode -> add -> cylinder)
+2. Będąc w którejś osi włączamy R - rotate, wpisujemy 90 i obracamy walec.
+3. Za pomocą E i S - Extrude i Scale - tworzymy kształt pocisku.
+4. Ściągamy projekt motorówki (rzut z boku i z góry) z internetu, dodajemy do sceny -> Add -> Empty... -> Image i powiększamy.
+5. Nanosimy model nad zdjęcie i znowu za pomocą extrude i scale oraz manualnego ruszania wielokątami dopasowujemy do kształtu kadłuba
+6. Tworzymy mapę UV - za pomocą zaznaczenia edge w edit mode zaznaczamy miejsca wzdłóz których tesktura zostanie "rozcięta", klikamy prawym i "make seam".
+Proces ten mozemy sobie wyobrazic jak obieranie skórki z pomarańczy.
+7. Wciskamy U i klikamy Unwrap a potem w edytorze UV dopasowujemy i rozmieszamy tematycznie powierzchnie - te które są mniejsze lub mniej szczegółowe zmniejszamy, te które chcemy zeby mialy wiecej szczegółów powiększamy i poprawiamy jeśli algorytm porozmieszczał dziwnie niektóre elementy.
+8. Zapisujemy mapę UV w png (UV -> Export UV Layout), ładujemy do Gimpa i malujemy - ja mam elementy plastikowe kadłuba, w środku drewno i kawałek szklany który maluję na niebiesko.
